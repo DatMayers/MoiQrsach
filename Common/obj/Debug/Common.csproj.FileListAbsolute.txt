@@ -1,0 +1,15 @@
+C:\Projects\_StudentProjects\Shvecov\sbattle\Common\bin\Debug\Common.dll
+C:\Projects\_StudentProjects\Shvecov\sbattle\Common\bin\Debug\Common.pdb
+C:\Projects\_StudentProjects\Shvecov\sbattle\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Projects\_StudentProjects\Shvecov\sbattle\Common\obj\Debug\Common.dll
+C:\Projects\_StudentProjects\Shvecov\sbattle\Common\obj\Debug\Common.pdb
+G:\hfdhg\sbattle\Common\bin\Debug\Common.dll
+G:\hfdhg\sbattle\Common\bin\Debug\Common.pdb
+G:\hfdhg\sbattle\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+G:\hfdhg\sbattle\Common\obj\Debug\Common.dll
+G:\hfdhg\sbattle\Common\obj\Debug\Common.pdb
+C:\Users\ADMIN\Desktop\Sex\sbattle\Common\bin\Debug\Common.dll
+C:\Users\ADMIN\Desktop\Sex\sbattle\Common\bin\Debug\Common.pdb
+C:\Users\ADMIN\Desktop\Sex\sbattle\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Sex\sbattle\Common\obj\Debug\Common.dll
+C:\Users\ADMIN\Desktop\Sex\sbattle\Common\obj\Debug\Common.pdb

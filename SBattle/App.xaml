@@ -1,0 +1,11 @@
+﻿<Application x:Class="SBattle.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="ConnectWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Button">
+            <Setter Property="MinWidth" Value="75" />
+            <Setter Property="MinHeight" Value="24" />
+        </Style>
+    </Application.Resources>
+</Application>

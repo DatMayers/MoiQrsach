@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="SBattle.UI.ChatFrame"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:my="clr-namespace:SBattle.UI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid DataContext="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=my:ChatFrame, AncestorLevel=1}}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition />
+            <ColumnDefinition Width="5" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        
+        <TextBox Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Text="{Binding ChatLog}" 
+                 AcceptsReturn="True" AcceptsTab="True" IsReadOnly="True" Name="txtChatLog" 
+                 VerticalScrollBarVisibility="Visible" TextWrapping="Wrap" />
+                     
+        <Label Grid.Row="2" Grid.Column="0" Content="Сообщение: " VerticalAlignment="Top"  />
+        <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding ChatMessageText, UpdateSourceTrigger=PropertyChanged}"
+                 VerticalAlignment="Center" KeyDown="txtChatMessage_KeyDown" />
+        <Button Grid.Row="2" Grid.Column="3" Content="Отправить" Click="btnSendChatMessage_Click"
+                VerticalAlignment="Center" />
+    </Grid>
+</UserControl>
